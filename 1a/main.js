@@ -12,7 +12,7 @@ console.log(MathUtils.add(2, 3));
 console.log(MathUtils.multiply(4, 5));
 console.log(Config.GREETING);
 
-
+console.log("test");
 
 
 
