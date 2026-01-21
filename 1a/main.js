@@ -14,6 +14,10 @@ console.log(Config.GREETING);
 
 console.log("test");
 
+import { rectangleArea, rectanglePerimeter } from './rectangles.js';
+
+console.log(`Area of 5x10 rectangle: ${rectangleArea(5, 10)}`);     // 50
+console.log(`Perimeter of 5x10 rectangle: ${rectanglePerimeter(5, 10)}`); // 30
 
 
 
