@@ -5,6 +5,10 @@
     background-color: rgb(197, 213, 196);
 }
 
+main {
+    margin: 20px;
+}
+
 header,
 header h1,
 header p {
@@ -19,15 +23,11 @@ header {
     box-shadow: 2px 4px 3px rgb(31, 42, 32);
 }
 li {
-    list-style-type: circle;
+    list-style: none;
 }
 a {
-    text-decoration: none;
-    color: black;
-}
-li {
-    font-weight: bold;
-    font-size: 20px;
+    color: rgb(52, 127, 80);
+    font-size: 17px;
 }
 
 h2 {
@@ -37,7 +37,7 @@ h2 {
     border: 1px solid rgb(35, 50, 36);
     border-radius: 20px;
     box-shadow: 2px 2px 5px rgb(38, 51, 40);
-    margin-left: 15px;
+    margin: 30px;
 }
 
 footer,
