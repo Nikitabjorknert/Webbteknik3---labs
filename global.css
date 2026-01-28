@@ -30,6 +30,24 @@ a {
     font-size: 17px;
 }
 
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.badge.done {
+    background-color: rgb(127, 153, 125);
+    color: white;
+    margin: 10px;
+}
+.badge.wip {
+    background-color: rgb(196, 107, 129);
+    color: white;
+    margin: 10px;
+}
+
 h2 {
     background-color: rgb(147, 170, 152);
     width: 20%;
