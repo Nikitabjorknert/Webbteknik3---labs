@@ -64,3 +64,13 @@ footer p {
     padding: 10px;
     color: white;
 }
+
+.light-theme {
+  background: white;
+  color: black;
+}
+
+.dark-theme {
+  background: #1a1a1a;
+  color: #f0f0f0;
+}
