@@ -1,0 +1,25 @@
+{
+  "restaurant": {
+    "name": "Min restaurang",
+    "location": "Stockholm"
+  },
+  "categories": [
+    {
+        "Name": "Förätter",
+        "dishes": [
+        {
+            "name": "Sashimi", "price": 120
+        }
+        ]
+        },
+         {
+      "name": "Huvudrätter",
+      "dishes": [
+        {
+          "name": "...",
+          "price": 0
+        }
+      ]
+    }
+        ]
+    }
