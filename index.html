@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Labs - Webbteknik 3</title>
+    <script type="module" src="index.js"></script>
     <link rel="stylesheet" href="global.css">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🖥️</text></svg>">
 </head>
@@ -14,7 +15,10 @@
         <p>Skapare: Nikita Björknert</p>
     </header>
     <br>
-<main>
+<main> 
+    <section id="labs-container"></section>
+  
+    <!---
     <br>
     <section id="vecka1">
         <h2>Vecka 1</h2>
@@ -32,7 +36,7 @@
         </nav>
     </section>
 
-    <section>
+    <section id="vecka2">
         <h2>Vecka 2</h2>
         <ul>
             <h3>Laboration 2a</h3>
@@ -63,33 +67,80 @@
         <input type="text" placeholder="Kommer snart...">
         <ul>
     </section>
-    <section>
-        <h2>Vecka 3
-        </h2>
-        <input type="text" placeholder="Kommer snart...">
+-->
+<!--
+    <section id="vecka3">
+        <h2>Vecka 3</h2>
+        
         <ul>
-            <li><a href="labs/3/index.html">Lab3</a></li>
-        </ul>
-    </section>
-    <section>
-        <h2>Vecka 4</h2>
-        <ul>
-            <h3>Laboration 4a</h3>
-            <li><a href="./4a/index.html">Lab 4a</a></li>
+            <h3>Laboration 3a: Arrow-funktioner</h3>
+            <li><a href="labs/3a/index.html">Lab 3a</a></li>
             <span class="badge done">Klar</span>
-            <p>Beskrivning</p>
+            <p>Laborationen handlade om att få oss att förstå syntaxen för arrow-funktioner (pilfunktioner), att kunna skriva om vanliga funktioner till arrow-funktioner och att förstå när man kan utelämna parenteser och måsvingar. Vi lärde oss: Grundläggande syntax, implicit return och utelämning av parenteser.</p>
         </ul>
         <br>
-        <ul>
-            <h3>Laboration 4b</h3>
-            <li><a href="./4b/index.html">Lab 4b</a></li>
+         <ul>
+            <h3>Laboration 3b: Fetch</h3>
+            <li><a href="labs/3b/index.html">Lab 3b</a></li>
             <span class="badge done">Klar</span>
-            <p>Beskrivning</p>
+            <p>Syftet med laborationen är att förstå gunderna i fetch för att hämta data, att kunna läsa både textfiler och JSON-filer, att förstå skillnaden mellan .then() och async/await, samt att hantera asynkrona operationer korrekt. vi fick: Hämta textfiler och använda promise, kedjad syntax, lära oss förstå Promise och Response, hämta JSON och använda async/await.</p>
+        </ul>
+         <br>
+         <ul>
+            <h3>Laboration 3c: Strukturerad data</h3>
+            <li><a href="labs/3c/index.html">Lab 3c</a></li>
+            <span class="badge done">Klar</span>
+            <p>Syftet med labben var att kunna designa genomtänkta JSON-strukturer, att förstå hur datastruktur påverkar kodens komplexitet, att kunna validera JSON och att tänka som en "data-arkitekt". Vi fick prova att strukturera en restaurang-meny, validera och lägga in vår struktur med fetch.</p>
+        </ul>
+         <br>
+         <ul>
+            <h3>Laboration 3d: Skapa element dynamiskt</h3>
+            <li><a href="labs/3d/index.html">Lab 3d</a></li>
+            <span class="badge done">Klar</span>
+            <p>Syftet med labben är att vi ska lära oss att förstå skillnaden mellan innerHTML och document.createElement(), att kunna skapa och lägga till DOM-element med javaScript och att förstå när man bör använda vilken metod. Vi gick igenom: Problemet med innerHTML, skapa element med createElement(), att lägga till element i DOM, andra metoder för att lägga till element, födelar med att manipulera DOM direkt istället för via innerHTML, att bygga strukturer och rendera datan. Vi fick göra en utmaning med att göra en interaktiv lista.</p>
+        </ul>
+         <br>
+         <ul>
+            <h3>Laboration 3e: Landningssida 2.0</h3>
+            <li><a href="labs/3e/index.html">Lab 3e</a></li>
+            <span class="badge done">Klar</span>
+            <p>Här fick vi använda kunskaperna vi har fått av laborationerna hittills. Vi fick applicera kunskaper om objekt och arrayer i ett riktigt scenario och att ersätta hårdkodad HTML med datadriven DOM-manipulation.</p>
         </ul>
     </section>
+
+
+    <section id="vecka4">
+        <h2>Vecka 4</h2>
+
+        <ul>
+            <h3>Laboration 4a: Klasser och konstruktorer</h3>
+            <li><a href="./4a/index.html">Lab 4a</a></li>
+            <span class="badge done">Klar</span>
+            <p>Först gick vi igenom grunden i klasser och användningen av constructors. Det innebar att lära oss ta emot konstruktorns parametrar och spara dem som egenskaper på objekt genom this. Det gick igenom hur man använder sig av arrayer i en klass.</p>
+        </ul>
+
+        <br>
+
+        <ul>
+            <h3>Laboration 4b: Metoder i klasser</h3>
+            <li><a href="./4b/index.html">Lab 4b</a></li>
+            <span class="badge done">Klar</span>
+            <p>Vi fick lära oss att lägga till metoder i en klass samt att förstå hur this fungerar i klassmetoder. Vi fick lära oss skillnaden mellan vanliga metoder och arrow-funktioner i klasser, samt att veta när man ska använda en typ av funktion. Det handlade om hur man lägger till metoder, metoder som ändrar tillstånd, problemen med this och händelsehantering. Vi fick lära oss tumregler inom klassmetoder och callbacks inuti metoder med arrow-funktioner.</p>
+        </ul>
+
+        <br>
+
+         <ul>
+            <h3>Laboration 4c: Inkapsling</h3>
+            <li><a href="./4c/index.html">Lab 4c</a></li>
+            <span class="badge done">Klar</span>
+            <p>Labben handlade om varför inkapsling är viktigt, hur man använder privata fält (#) i klasser, att skapa getters och setters och att kunna använda setters för validering av data. Vi gick igenom problemet med öppna egenskaper, privata fält, getters, setters ch att använda alla dessa tillsammans.</p>
+        </ul>
+    </section>
+-->
+<!--
     <section>
         <h2>Vecka 5</h2>
-        <input type="text" placeholder="Kommer snart...">
         <ul>
             <li><a href="labs/5/index.html">Lab5</a></li>
         </ul>
@@ -122,6 +173,7 @@
             <li><a href="labs/9/index.html">Lab9</a></li>
         </ul>
     </section>
+-->
 
  <footer>
     <p>Skapare: Nikita Björknert</p>
