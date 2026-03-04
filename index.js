@@ -141,53 +141,53 @@ export const labs = [
   },
    {
     id: '4d',
-    title: '..',
+    title: 'Laboration 4d: Array.find',
      link: '4d/index.html',
-    description: '..',
+    description: 'Istället för att skriva en loop varje gång man vill hitta något specifikt i en array kan man istället använda find. Det gör det enklare eftersom det returnerar det första elementet som matchar ett villkor. Detta hittar ett enda element.',
     week: 4,
-    completed: false,
-    showLink: false,
-    topics: ['2', '2']
+    completed: true,
+    showLink: true,
+    topics: ['Grundläggande find', 'find med strängar', 'find med objekt', 'find med klassinsatser']
   },
    {
     id: '5a',
-    title: '..',
+    title: 'Laboration 5a: Array.filter',
      link: '5a/index.html',
-    description: '..',
+    description: 'Här hittar man alla element som uppfyller ett villkor, till exempel alla produkter under ett visst pris. Det skapar en ny array som bara innehåller de element som matchar villkoret.',
     week: 5,
-    completed: false,
-    showLink: false,
-    topics: ['2', '2']
+    completed: true,
+    showLink: true,
+    topics: ['Grundläggande i filter', 'Filtrera strängar', 'Filtrera objekt', 'Filtrera och visa på sidan', 'Utmaning med sökfunktion']
   },
    {
     id: '5b',
-    title: '..',
+    title: 'Laboration 5b: Hantering av saknade värden, null och undefined',
      link: '5b/index.html',
-    description: '...',
+    description: 'Används där det saknas information, ex om en användare inte har angivit en epost-adress. Då används null och undefined som betyder "Inget värde finns här"',
     week: 5,
-    completed: false,
-    showLink: false,
-    topics: ['2', '2']
+    completed: true,
+    showLink: true,
+    topics: ['Null', 'Undefined', 'Nullish coalescing (??)', 'Använda ?? med objekt', 'Optional chaining (?.)', 'Utmaning: Väderprognos']
   },
    {
     id: '5c',
-    title: '..',
+    title: 'Laboration 5c: Array.map',
      link: '5c/index.html',
-    description: '...',
+    description: 'Skapar en ny array där varje element har omvandlats enligt en funktion vi anger. Ex om man vill beräkna priset inklusive moms för varje produkt.',
     week: 5,
-    completed: false,
-    showLink: false,
-    topics: ['2', '2']
+    completed: true,
+    showLink: true,
+    topics: ['Grunderna i map', 'map med strängar', 'map med objekt', 'Kombinera map och filter']
   },
    {
     id: '5d',
-    title: '..',
+    title: 'Laboration 5d: Återställa commits med Git',
      link: '5d/index.html',
-    description: '...',
+    description: 'Kunskaper om hur man ångrar en commit vid ex en commit av en bugg eller när man ångrar något. Här får vi kraftfulla verktyg för att hantera commit-historiken: git revert och git reset.',
     week: 5,
-    completed: false,
-    showLink: false,
-    topics: ['2', '2']
+    completed: true,
+    showLink: true,
+    topics: ['Git', 'Granska historiken', 'Ångra commit med git revert', 'Förbered för git reset', 'Använda git reset', 'Återställa från backup', 'Utmaning: Rätt verktyg för rätt situation']
   },
    {
     id: '6',
