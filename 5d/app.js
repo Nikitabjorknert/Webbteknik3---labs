@@ -9,6 +9,7 @@ function farewell(name) {
   return `Hejdå ${name}!`;
 }
 
+<<<<<<< HEAD
 console.log(farewell("Världen"));
 
 function multiply(a, b) {
@@ -22,3 +23,6 @@ function divide(a, b) {
 }
 
 console.log(divide(10, 2));
+=======
+console.log(farewell("Världen"));
+>>>>>>> parent of a9a61d1 (Add multiply function)
