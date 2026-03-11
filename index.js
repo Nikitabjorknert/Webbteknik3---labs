@@ -190,14 +190,14 @@ export const labs = [
     topics: ['Git', 'Granska historiken', 'Ångra commit med git revert', 'Förbered för git reset', 'Använda git reset', 'Återställa från backup', 'Utmaning: Rätt verktyg för rätt situation']
   },
    {
-    id: '6',
-    title: '..',
+    id: '6a',
+    title: 'Laboration 6a: HTML5-formulär',
      link: '6a/index.html',
-    description: '...',
+    description: 'Här gick vi igenom användning av formulär och dess olika input-typer mm.',
     week: 6,
-    completed: false,
-    showLink: false,
-    topics: ['2', '2']
+    completed: true,
+    showLink: true,
+    topics: ['Formulär', 'Inputs', 'Placeholders', 'Required', 'HTML']
   },
    {
     id: '6',

@@ -1,0 +1,25 @@
+form {
+    width: 900px;
+}
+
+/*- Gör fälten tydliga när de är markerade. Bra för att veta vart man befinner sig och det ökar tillgängligheten-*/
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid rgb(249, 67, 67);
+    outline-offset: 1px;
+}
+
+/* Asterisk efter labels för required-fält */
+label:has(+ input:required)::after,
+label:has(+ select:required)::after {
+    content: " *";
+    color: rgb(196, 5, 2);
+}
+
+/* Radioknappar och checkboxar inline */
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline;
+  width: auto;
+}

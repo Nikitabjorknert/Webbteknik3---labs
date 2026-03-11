@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboration 6a</title>
+    
+    <link rel="stylesheet" href="../global.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    
+     <header>
+        <h1>Laboration 6a</h1>
+    </header>
+
+    <form>
+        <fieldset>
+            <legend>Kontaktuppgifter</legend>
+
+            <label for="name">Namn</label>
+            <input type="text" id="name" name="name" required minlength="2" placeholder="t.ex.Nikita">
+
+            <label for="email">E-post</label>
+            <input type="email" id="email" name="email" required placeholder="t.ex. nikita@gmail.com">
+
+            <label for="phone">Telefonnummer</label>
+            <input type="tel" name="phone" id="phone" placeholder="t.ex. 070-1234567">
+
+            <label for="birthday">Födelsedag</label>
+            <input type="date" name="birthday" id="birthday">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Boka tid</legend>
+            <label for="tid">Tid</label>
+            <input type="time" id="tid" name="tid" required>
+
+            <label for="dropdpwn">Ärende</label>
+            <select name="dropdown" id="dropdown" required>
+                <option value="">Välj ärende</option>
+                <option value="ask">Fråga</option>
+                <option value="feedback">Feedback</option>
+                <option value="support">Support</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ditt meddelande</legend>
+
+            <label for="meddelande">Meddelande</label>
+            <textarea name="meddelande" id="meddelande"></textarea>
+
+
+            <label for="contact">Hur vill du bli kontaktad?</label>
+
+            <input type="radio" name="phone" id="phone" value="phone">
+            <label for="phone">Telefon</label>
+
+            <input type="radio" name="mail" id="mail" value="mail">
+            <label for="mail">E-post</label>
+
+            <input type="checkbox" name="accept" id="accept" value="accept" required>
+            <label for="accept">Jag godkänner villkoren</label>
+        </fieldset>
+
+        <button type="submit">Skicka</button>
+    </form>
+
+    <form>
+        <label for="web">Webbsida</label>
+        <input type="url" name="web" id="web">
+    </form>
+
+</body>
+
+</html>
